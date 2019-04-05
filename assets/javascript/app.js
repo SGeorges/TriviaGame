@@ -13,7 +13,7 @@ var question1 = Object.assign({}, question);
     question1.gif = "https://i.gifer.com/HZ6.gif";
 
 var question2 = Object.assign({}, question);
-    question2.question = "Which character in Toy Story 3 sexually assulted Barbie dolls?";
+    question2.question = "Which character in Toy Story 2 Harvey Weinstein'd Barbie dolls?";
     question2.options = ["Buzz Lightyear", "Woody", "Stinky Pete", "Mr. Potatohead"];
     question2.answer = 2;
     question2.gif = "https://media.giphy.com/media/gtZQdA9r47fMY/giphy.gif";

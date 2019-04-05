@@ -76,7 +76,11 @@ body { /* Visual */
     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/491274240789520928/48B14A526D4B2D07846C2917398C3EE573D474B2/");
     background-repeat: no-repeat;
 
-    background-size: auto 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
   #question-container {
@@ -117,6 +121,7 @@ body { /* Visual */
 
     margin: 50px 0;
 
+    font-family: 'Kalam', cursive;
     text-align: center;
 
 

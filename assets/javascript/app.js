@@ -84,6 +84,7 @@ function decrement() {
     if (time === 0) {
 
         stop();
+        $("#timer-display").html("<h2 id='timer-text'> TIMES UP! </h2>");
         checkAnswer();
     }
 }

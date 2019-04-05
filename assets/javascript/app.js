@@ -178,7 +178,6 @@ function answerPrompt () {
 
 function finalPrompt () {
 
-    
     for (var i = 0; i < questions.length; i++) {
         if (questions[i].result === "CORRECT") {
             correct++;

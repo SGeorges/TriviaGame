@@ -45,7 +45,7 @@ var question6 = Object.assign({}, question);
 var question7 = Object.assign({}, question);
     question7.question = "What does a Lannister do when they have no money to repay their debts?";
     question7.options = ["Invade another house for money", "Kill the people they owe money", "A Lannister always pays their debts", "Nothing"];
-    question7.answer = 3;
+    question7.answer = 2;
     question7.gif = "https://media.giphy.com/media/SYcagdvsZ1PDW/giphy.gif";
 
 
@@ -123,10 +123,8 @@ function displayQuestion() {
 
             default:
             break;
-
         }
     }
-
 }
 
 function checkAnswer( selected ) {
@@ -171,9 +169,7 @@ function answerPrompt () {
             stop();
             intervalId = setInterval(decrement, 1000);        
         }
-
     }
-
 }
 
 function finalPrompt () {

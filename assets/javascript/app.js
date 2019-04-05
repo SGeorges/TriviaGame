@@ -48,9 +48,15 @@ var question7 = Object.assign({}, question);
     question7.answer = 2;
     question7.gif = "https://media.giphy.com/media/SYcagdvsZ1PDW/giphy.gif";
 
+var question8 = Object.assign({}, question);
+    question8.question = "What's the scariest part of the day?";
+    question8.options = ["Going out on the town", "Checking the time of day", "Doing the dishes", "Eating"];
+    question8.answer = 1;
+    question8.gif = "https://media.giphy.com/media/l2YSDYQbXeo9M3Ize/giphy.gif";
 
 
-var questions = [question1, question2, question3, question4, question5, question6, question7];
+
+var questions = [question1, question2, question3, question4, question5, question6, question7, question8];
 
 var intervalId;
 var timeQuestion = 25;

@@ -5,22 +5,44 @@
   <head>
 
     <meta charset="UTF-8">
-    <title>Meme Trivia</title>
+    <title>Modern Magical History</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">    
 
   </head>
 
   <body>
 
-    <div id="question-container">
-        <h1> Trivial Meme Trivia!</h1>
-        <p id="timer-display"></p>
-        <div id="image-holder">
-                <button id="start"><h2>Start</h2></button>
+    <div class= "container">
+      <div id= "game-card" class= "card border border-dark w-100 mt-4">
+        <div class= "card-body">
+          <h1 id= "card-title" class= "card-title border-bottom border-dark mt-2">Modern Magical History</h1>
+          <h5 id= "game-timer" class="card-subtitle mb-2 text-muted d-flex justify-content-end"></h6>
+
+          <div id= "question-body" class= "row mt-2">
+            <div class= "col-md-3">
+              <!-- Empty Col-->
+            </div>
+
+            <div id="game-holder" class= "col-md-6 d-flex justify-content-center">
+
+              <button type = "button" class= "btn btn-light btn-lg" id="start">Start</button>
+
+            </div>
+
+            <div class= "col-md-3">
+              <!-- Empty Col-->
+            </div> 
+          </div>
+      
         </div>
+      </div>
+    </div>
+
+    <div id="question-container" class= "container">
+
     </div>
 
     <!-- jQuery -->

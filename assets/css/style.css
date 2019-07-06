@@ -1,32 +1,25 @@
-  body { /* Visual */ 
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/491274240789520928/48B14A526D4B2D07846C2917398C3EE573D474B2/");
+  body { 
+    /* Visual */ 
+    background-color: black;
+}
+
+  #game-card {
+    background-image: url("./../images/background.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 
+    height: 620px;
 
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
   #question-container {
-
-    /* Positioning */
-     margin: 0 auto;
-
-    /* Box-model */
-    height : 800px;
-    width: 800px;
-
-    /* Typography */
-    color: white;
-    font-family: 'Kalam', cursive;
-    font-size: 18px;
     text-align: center;
-
   }
 
-  .question-text {
-    font-size: 28px;
+  #card-title {
+    /* Typography */
+    color: black;
+    font-family: 'Parisienne', cursive;
   }
 
   .timer-text {
@@ -35,31 +28,44 @@
       font-size: 20px;
   }
 
-  #option-text {
-  }
-
   button {
-
-    /* Box-model */
-    width: 200px;
-    height: 100px;
-
-    margin: 50px 0;
-
-    font-family: 'Kalam', cursive;
+    font-family: 'Parisienne', cursive;
     text-align: center;
-
-
   }
 
-  #gif {
-    width: 300px;
-    height: 150px;
+  #option-text {
+    background: none !important;
 
-    padding: 10px;
+    border-width: 0;
+  }
 
-    border-color: white;
-    border-style: dashed;
-    border-width: 1px;
+  #option-text:hover {
+    font-weight: bold;
+  }
+
+  #res-quote {
+    font-size: 16px;
+  }
+
+  #res-source {
+    font-size: 12px;
+  }
+
+/*
+font-family: 'Homemade Apple', cursive;
+font-family: 'Parisienne', cursive;
+*/
+
+/* Responsiveness */
+
+@media only screen and (min-width: 768px) {
+  #game-card { height: 385px; }
+  #question-text { font-size: 16px; }
+  #option-text { font-size: 12px; }
 }
-
+@media only screen and (min-width: 992px) {
+  #game-card { height: 520px; }
+}
+@media only screen and (min-width: 1200px) {
+  #game-card { height: 620px; }
+}
